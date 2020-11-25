@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		12BD0D021012E59BC3AD7FFE /* Pods-LThen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LThen_Tests.release.xcconfig"; path = "Target Support Files/Pods-LThen_Tests/Pods-LThen_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2386E959CAB17F1C7F9ACE28 /* LThen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LThen.podspec; path = ../LThen.podspec; sourceTree = "<group>"; };
-		2DA8D242F5BF9F59A8D0CB78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2386E959CAB17F1C7F9ACE28 /* LThen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LThen.podspec; path = ../LThen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2DA8D242F5BF9F59A8D0CB78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LThen_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LThen_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A09AC0FB1321802DCE59D4A9 /* Pods_LThen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LThen_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB5F9E6C1808B5549C23865C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BB5F9E6C1808B5549C23865C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C6820B334F4649085C8F9A60 /* Pods-LThen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LThen_Example.release.xcconfig"; path = "Target Support Files/Pods-LThen_Example/Pods-LThen_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0AD0CA44F7392E6CA9E381A /* Pods_LThen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LThen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21691599CE6682335C29071 /* Pods-LThen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LThen_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LThen_Tests/Pods-LThen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				F21691599CE6682335C29071 /* Pods-LThen_Tests.debug.xcconfig */,
 				12BD0D021012E59BC3AD7FFE /* Pods-LThen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

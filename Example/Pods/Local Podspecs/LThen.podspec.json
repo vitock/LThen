@@ -1,0 +1,23 @@
+{
+  "name": "LThen",
+  "version": "0.1.0",
+  "summary": "A short description of LThen.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vgop@outlook.com/LThen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vgop@outlook.com": "liw"
+  },
+  "source": {
+    "git": "https://github.com/vgop@outlook.com/LThen.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LThen/Classes/**/*",
+  "public_header_files": "LThen/Classes/LTAsyncListEnumerator.h"
+}

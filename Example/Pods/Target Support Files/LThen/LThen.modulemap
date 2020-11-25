@@ -1,0 +1,6 @@
+framework module LThen {
+  umbrella header "LThen-umbrella.h"
+
+  export *
+  module * { export * }
+}
