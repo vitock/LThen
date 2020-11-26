@@ -35,7 +35,6 @@
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49CAC71256E4E1C00D71383 /* LTThenable.h in Headers */ = {isa = PBXBuildFile; fileRef = C49CAC6F256E4E1C00D71383 /* LTThenable.h */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D2447BECF2983099FD066639E142015C /* LTAsyncListEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028C4DD7931E5E17BA5ADAB5CCFEBC2 /* LTAsyncListEnumerator.m */; };
@@ -126,7 +125,6 @@
 		B54276458F75E5D7FAE8BB84163EBD97 /* LThen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LThen.modulemap; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		C2A02B09B1263A4312E7C2F6BEE7E89D /* Pods-LThen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LThen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C49CAC6F256E4E1C00D71383 /* LTThenable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LTThenable.h; path = LThen/Classes/LTThenable.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CDEE56D03F98A949132810356F633E5E /* LThen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LThen-prefix.pch"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -239,7 +237,6 @@
 		570962F07910FE3DE4878D055846EEC8 /* LThen */ = {
 			isa = PBXGroup;
 			children = (
-				C49CAC6F256E4E1C00D71383 /* LTThenable.h */,
 				1059B634186092FBD9F15BA4116505BC /* LTAsyncListEnumerator.h */,
 				6028C4DD7931E5E17BA5ADAB5CCFEBC2 /* LTAsyncListEnumerator.m */,
 				BA693C99681CF837926D8C56A9DD0479 /* Pod */,
@@ -406,7 +403,6 @@
 				74C6998B528863773D1E877B6FF54085 /* LThen-umbrella.h in Headers */,
 				1C08CC5061653D6C3B7840B4E2FCD37B /* RACEXTKeyPathCoding.h in Headers */,
 				44CD23DFFFF380224D6298E400380D64 /* RACEXTScope.h in Headers */,
-				C49CAC71256E4E1C00D71383 /* LTThenable.h in Headers */,
 				7E5E35640D25614FDC9E8331D6622E9A /* RACmetamacros.h in Headers */,
 				D6655957FB82284BC6F379BB6552D66E /* Tool.h in Headers */,
 			);
