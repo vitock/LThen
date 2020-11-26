@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LThen' => ['LThen/Assets/*.png']
   # }
 
-  s.public_header_files = 'LThen/Classes/LTThenable.h'
+#  s.public_header_files = 'LThen/Classes/LTThenable.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
