@@ -207,9 +207,7 @@ id LT_arrGetObject(NSArray *arr, NSUInteger index, Class aClass) {
 }
 
 
-- (void)dealloc{
-    LTLog(@"---");
-}
+
 @end
 
 
