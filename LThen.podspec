@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LThen'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = '适用于objC的Promise 方法,支持链式调用'
 
 # This description is used to generate tags and improve search results.

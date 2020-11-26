@@ -110,7 +110,7 @@ catchFunction(^id(id r) {
 
 ## Author
 
-vgop@outlook.com, liw
+vitock
 
 ## License
 
