@@ -65,11 +65,11 @@ id LT_arrGetObject(NSArray *arr, NSUInteger index, Class aClass) {
     
 }
 
-- (LTThenable *(^)())startTask{
+- (LTStartBlock)startTask{
     self.isTaskBeginedOnce = YES;
     [self begin];
     @weakify(self);
-    return ^{
+    return ^(){
         /// 什么都不做,只是返回self 方便链式写法
         @strongify(self);
         return self;

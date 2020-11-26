@@ -23,6 +23,9 @@ typedef void(^LTAsyncEnumertorAction)(id item , LTAsyncListEnumerator *obj);
 @end
 
 @implementation LTPromiseFuncHolder
+@synthesize fun;
+@synthesize nFuncType;
+@synthesize isRunned;
 @end
 
 
@@ -31,12 +34,13 @@ typedef void(^LTAsyncEnumertorAction)(id item , LTAsyncListEnumerator *obj);
 @interface LTAsyncListEnumerator:NSObject
 @end
 
+typedef  LTThenable *(^LTStartBlock)(void);
 
 
 @interface LTThenable:NSObject
 @property (nonatomic,readonly)LTPromiseChain then;
 @property (nonatomic,readonly)LTPromiseChain catchFunction;
-@property (nonatomic,readonly)LTThenable *(^startTask)(void);
+@property (nonatomic,readonly)LTStartBlock startTask;
 
 - (LTPromiseChain )catchFunction;
 - (LTPromiseChain )then;
@@ -45,7 +49,7 @@ typedef void(^LTAsyncEnumertorAction)(id item , LTAsyncListEnumerator *obj);
  * 否则一些同步的立即返回的回调可能会丢失
  * 如果第一个 then 是异步的,那就没问题
  */
-- (LTThenable *(^)())startTask;
+- (LTStartBlock)startTask;
 
 /// 中断
 - (void)reject;
